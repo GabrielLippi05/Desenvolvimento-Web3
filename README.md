@@ -1,3 +1,3 @@
-    # Desenvolvimento-Web
-Meu primeiro repositório no GITHUB
+# Desenvolvimento-Web
+Meu primeiro repositório no GITHUB.
 Nome: Gabriel Lippi Angelini

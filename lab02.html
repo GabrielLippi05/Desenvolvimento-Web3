@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voe Bem ✈️</title>
+    <style>
+
+            /* Adicionando a cor de fundo ao corpo da página */
+      body {
+            background-color: #b5baf4;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color:#000000;
+            text-align: center; /*centraliza o texto*/ 
+      }
+            
+            /* configurando o retangulo */
+        #retangulocolorido {
+            width: 300px;
+            height: 200px;
+            border: 5px solid rgb(255, 255, 255); 
+            background-color: rgb(0, 0, 0); 
+        } 
+        
+
+        h1, h2, h3, h4 {
+            margin-top:15px;    /*espaçamento dos titulos*/
+        }
+
+
+        ul, ol{
+            list-style-position:inside;  /*move os pontos e os numeros da lista para o centro*/
+            margin:20px auto;            /*espaçamento*/
+            display:inline-block;
+            text-align:left;            /*alinha os textos*/
+
+        }
+
+
+        form {
+            text-align:left;
+            margin:20px;
+            display:inline-block;
+        }
+
+
+        svg, audio, video{
+            margin: 20px 0;          /*alinha as formas, audio e video*/
+        }
+
+    </style>
+<body>
+
+    <h1> Neste site você encontrará os dados realacionados a empresa Fly-Better ✈️</h1>
+    
+    <h2>Pilotos disponíveis 🧑‍✈️:</h2>
+
+    <ul>
+    <li> Ana Beatriz Silva Costa</li>
+    <li>Rafael Oliveira Santos</li>
+    <li> Mariana Lima Duarte</li>
+    <li> Lucas Henrique Almeida</li>
+    <li>Sofia Ferreira Martin</li>
+    <li> Pedro Paulo Souza</li>
+    <li> Julia Campos Pereira</li>
+    <li>Bruno Santos Azevedo</li>
+    <li> Gabriela Rocha</li>
+    </ul>
+    
+    <h3>Aeronaves mais utilizadas 🛫:</h3>
+    
+    <ol>
+    <li> Boeing 747 - 15 unidades </li>
+    <li> Airbus A320 - 12 unidades</li>
+    <li> Airbus A220 - 10 unidades</li>
+    </ol>
+    <h4>Cadastre um novo piloto:</h4>
+
+    <form>
+        <!--Espaço para inserção do nome-->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+        <br><br>    <!--quebra de linhas-->
+
+       <!-- Botão suspenso para escolha de aeronave-->
+        <label for="aeronave">Aeronave pilotada:</label>
+        <select id="aeronave" name="aeronave">
+            <option value="Boeing 747">Boeing</option>
+            <option value="Airbus A320">A320</option>
+            <option value="Airbus A220">A220</option>
+        </select>
+        <br><br>
+
+        <!-- Área de texto para comentários adicionais -->
+        <label for="comentarios">Comentários:</label>
+        <textarea id="comentarios" name="comentarios" rows="5" cols="30"></textarea>
+        <br><br>
+
+        <!-- Botão de envio -->
+        <input type="submit" value="Enviar">
+    </form>
+    <br><br>
+
+    <canvas id="retangulocolorido"></canvas>
+
+    <svg width="200" height="200">
+        <!-- Desenha um círculo -->
+        <circle cx="100" cy="100" r="80" fill="red" stroke="black" stroke-width="5"/>
+    </svg>
+
+    <audio controls>
+        <source src="hino-sao-paulo-fc.mp3" type="audio/mpeg">
+    </audio>
+    <br><br>
+
+    <video width="320" height="240" controls>
+        <source src="jetFlyby.mp4" type="video/mp4"><!--video nao esta rodando-->
+    </video>
+    
+</body>
+</html>
