@@ -1,3 +1,4 @@
 # Desenvolvimento-Web
-Meu primeiro repositório no GITHUB.
+Olá, meu nome é Gabriel Lippi Angelini e esse é meu primeiro repositório.
+Nesse repositório irei 
 Nome: Gabriel Lippi Angelini
