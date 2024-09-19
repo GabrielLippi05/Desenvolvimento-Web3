@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Conhecimentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz de Conhecimentos</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <h3>1. Qual a arma mais cara do jogo?</h3>
+                <label><input type="radio" name="q1" value="AWP"> AWP</label><br>
+                <label><input type="radio" name="q1" value="NEGEV"> NEGEV</label><br>
+                <label><input type="radio" name="q1" value="M249"> M249</label><br>
+                <label><input type="radio" name="q1" value="AK-47"> AK-47</label>
+            </div>
+
+            <div class="question">
+                <h3>2. Qual o preço da AWP ?</h3>
+                <label><input type="radio" name="q2" value="4500"> 4500</label><br>
+                <label><input type="radio" name="q2" value="4650"> 4650</label><br>
+                <label><input type="radio" name="q2" value="4550"> 4550</label><br>
+                <label><input type="radio" name="q2" value="4750"> 4750</label>
+            </div>
+
+            <button type="button" id="submit-btn">Enviar Respostas</button>
+        </form>
+
+        <div id="result"></div>
+        <button type="button" id="reset-btn" style="display:none;">Reiniciar Quiz</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
