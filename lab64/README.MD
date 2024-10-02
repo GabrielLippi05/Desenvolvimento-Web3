@@ -1,8 +1,10 @@
 # Testando o Servidor com cURL
 
-Este servidor foi desenvolvido para aceitar requisições HTTP através de várias rotas. Abaixo estão exemplos de como testar cada rota usando o cURL:
+Este servidor foi desenvolvido para aceitar requisições HTTP através de várias rotas. 
 
-### 1. Rota Inicial (`/`)
+Abaixo estão exemplos de como testar cada rota usando o cURL:
+
+Rota Inicial (`/`)
 
 Use o comando abaixo para acessar a página inicial:
 
